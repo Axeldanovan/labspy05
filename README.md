@@ -9,7 +9,6 @@ berikut input nya
 Dengan penjelasan source code sebagai berikut:
 
 -Dibawah ini adalah untuk menampung data dari dictionary
-
 daftarkontak = {"Nama":"Nomor Telepon"}
 kontak = {'Ari':'081267888', 'Dina':'087677776'}
 
