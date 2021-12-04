@@ -83,6 +83,7 @@ print("="*30)
 print(kontak.values())
 print("="*30)
 ```
+
 #hasil output nya
 ![menampilakan sebuah nomer](https://user-images.githubusercontent.com/81457697/144696692-04c0cb81-2248-4824-bbbe-9e34bbf551d9.png)
 
