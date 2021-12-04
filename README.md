@@ -227,6 +227,7 @@ elif x.lower() == 'l':
 
 -sedangkan code dibawah adalah untuk syntax keluar dari program, untuk menghentikan program, dengan ketentuan jika kita mengetikkan 'k' pada keyboard, maka akan keluar dari program tersebut
 
+```python
  elif x.lower() == 'k':
         break
 ```
