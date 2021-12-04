@@ -234,6 +234,6 @@ elif x.lower() == 'l':
 -Dan code yang terakhir adalah untuk syntax jika kita mengetikkan pada keyboard selain dari huruf yang telah di definisikan di atas seperti 't', 'u', 'h', 'c', 'l', dan 'k', maka akan menampilkan Pilih Menu Yang Tersedia
 
 ```python
- else:
-        print("Pilih Menu Yang Tersedia"
+    else:
+        print("Pilih Menu Yang Tersedia")
 ```
