@@ -42,36 +42,36 @@ print("="*30)
 ![Screenshot_1](https://user-images.githubusercontent.com/81457697/144693251-d1c7c196-2e4d-4332-8fff-47f10ae7e72e.png)
 
 -Code dibawah ini untuk menambahkan kontak dengan nama Riko dan nomor 087654544
-'''python
+```python
 print("Menambah kontak dengan dana Riko dan Nomor Telepon 087654544")
 kontak['Riko']='087654544'
 print("="*30)
 print("  Riko   |   ",kontak['Riko'])
 print("="*30)
-'''
+```
 
 # hasil output nya
 ![Screenshot_2](https://user-images.githubusercontent.com/81457697/144693317-0d92ec1b-3a60-41c2-a0d9-a4682ea8d932.png)
 
 -Code dibawah untuk mengubah kontak Dina dengan nomor baru 0889999776
-'''python
+```python
 print("Mengubah kontak Dina dengan nomor baru 0889999776")
 kontak['Dina']='0889999776'
 print("="*30)
 print(" # Dina  |   ",kontak['Dina'])
 print("="*30)
-'''
+```
 
 # hasil output nya
 ![kontak dina](https://user-images.githubusercontent.com/81457697/144693341-4da3fe97-0600-4173-b5f2-affa7695a8f2.png)
 
 -Code dibawah untuk menampilkan semua nama yang ada dalam daftar kontak
-'''python
+```python
 print("Menampilkan semua nama")
 print("="*30)
 print(kontak.keys())
 print("="*30)
-'''
+```
 
 # hasil output nya
 ![Screenshot_3](https://user-images.githubusercontent.com/81457697/144693368-c1d1d55a-46be-49d5-abb1-713a55d44b76.png)
