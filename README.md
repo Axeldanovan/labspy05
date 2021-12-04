@@ -238,3 +238,20 @@ elif x.lower() == 'l':
     else:
         print("Pilih Menu Yang Tersedia")
 ```
+
+# hasil out program setelah di run
+-menambahkan data t dan melihat dengan data dengan l
+![Screenshot_8](https://user-images.githubusercontent.com/81457697/144697657-db621408-49c0-4957-9460-bab25d953ba3.png)
+![Screenshot_9](https://user-images.githubusercontent.com/81457697/144697680-edb48b67-9bc9-49b1-b3d5-7aa446cfa89b.png)
+
+-Mengubah data dengan  'u', dan melihat data dengan  'l'
+![Screenshot_10](https://user-images.githubusercontent.com/81457697/144697755-1438de23-af87-4dce-95a7-87e73cb2c768.png)
+
+-Mencari data dengan  'c', dan melihat data dengan  'l
+![Screenshot_11](https://user-images.githubusercontent.com/81457697/144697798-b0f2c326-76e0-4f83-bb7e-448c55ae4aa1.png)
+
+-Menghapus data dengan  'h' dan melihat data dengan 'l'
+![Screenshot_12](https://user-images.githubusercontent.com/81457697/144697848-4ef71dee-59d0-4513-b3d9-4005082cb808.png)
+
+-Keluar dari program dengan  'k'
+![Screenshot_13](https://user-images.githubusercontent.com/81457697/144697863-d25b16b8-b402-4480-863c-9e835c4ebf1c.png)
