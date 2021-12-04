@@ -66,11 +66,12 @@ print("="*30)
 ![kontak dina](https://user-images.githubusercontent.com/81457697/144693341-4da3fe97-0600-4173-b5f2-affa7695a8f2.png)
 
 -Code dibawah untuk menampilkan semua nama yang ada dalam daftar kontak
-
+'''python
 print("Menampilkan semua nama")
 print("="*30)
 print(kontak.keys())
 print("="*30)
+'''
 
 # hasil output nya
 ![Screenshot_3](https://user-images.githubusercontent.com/81457697/144693368-c1d1d55a-46be-49d5-abb1-713a55d44b76.png)
