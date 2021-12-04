@@ -146,3 +146,21 @@ if x.lower() == 't':
         n_akhir = tugas * 0.30 + uts * 0.35 + uas * 0.35
         a[nama] = nim, uts, uas, tugas, n_akhir
 ```
+
+-Code dibawah adalah untuk syntax mengubah data, dengan ketentuan jika kita mengetikkan 'u' pada keyboard, maka akan melakukan perubahan data yang telah di tampung ke dalam dictionary 'a' yang telah kita buat, tetapi data yang dapat diubah hanya data yang berupa values nya saja
+
+
+```python
+  elif x.lower() == 'u':
+        print("Ubah Data")
+        nama = input("Masukkan Nama   : ")
+        if nama in a.keys():
+            nim = int(input("NIM            : "))
+            uts = int(input("Nilai UTS      : "))
+            uas = int(input("Nilai UAS      : "))
+            tugas = int(input("Nilai Tugas    : "))
+            n_akhir = tugas*0.30 + uts*0.35 + uas*0.35
+            a[nama] = nim, uts, uas, tugas, n_akhir
+        else:
+            print("Nama{0} Tidak Ditemukan".format(nama))
+```
