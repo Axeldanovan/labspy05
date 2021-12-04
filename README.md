@@ -17,22 +17,26 @@ kontak = {'Ari':'081267888', 'Dina':'087677776'}
 
 
 -Sedangkan code dibawah adalah untuk mengakses atau menampilkan kontak yang telah ditampung dalam data dictionary tersebut
+
+```python
 print("="*30)
 print("   Nama     |    Nomor Telepon   ")
 print("="*30)
 print(" # Ari   |   ",kontak['Ari'])
 print(" # Dina  |   ",kontak['Dina'])
 print("="*30)
-
+```
 
  # hasil output nya
  ![Screenshot_381](https://user-images.githubusercontent.com/81457697/144693222-b577f7b3-21ae-4ddb-9d3b-7d84b5802d1f.png)
 
 -Code dibawah ini adalah untuk menampilkan salah satu dari daftar kontak yang ada, dibawah yang akan di tampilkan adalah daftar kontak Ari
+```python
 print("Menampilkan kontak Ari")
 print("="*30)
 print(" # Ari   |   ",kontak['Ari'])
 print("="*30)
+```
 
 # hasil output nya
 ![Screenshot_1](https://user-images.githubusercontent.com/81457697/144693251-d1c7c196-2e4d-4332-8fff-47f10ae7e72e.png)
