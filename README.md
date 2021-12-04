@@ -121,7 +121,15 @@ print("="*30)
 ![flowchart daftar nilai mahasiswa](https://user-images.githubusercontent.com/81457697/144697067-b94cc919-e674-43bb-add4-62e3e196a2a9.png)
 
 -Dengan penjelasan source code sebagai berikut:
+-Code dibawah ini untuk membuat dictionary kosong, untuk menampung dictionary dengan menggunakan tuple
+
 ```python
 a = {}
 ```
 
+-Code dibawah ini untuk perulangan while, dan juga untuk menginisialkan penambahan menu pilihan Tambah, Ubah, Hapus, Cari, Lihat dan Keluar:
+
+```python
+while True:
+    x = input("(T)ambah, (U)bah, (H)apus, (C)ari, (L)ihat, (K)eluar: ")
+```
