@@ -17,15 +17,10 @@ kontak = {'Ari':'081267888', 'Dina':'087677776'}
 -Sedangkan code dibawah adalah untuk mengakses atau menampilkan kontak yang telah ditampung dalam data dictionary tersebut
 
 print("="*30)
-
 print("   Nama     |    Nomor Telepon   ")
-
 print("="*30)
-
 print(" # Ari   |   ",kontak['Ari'])
-
 print(" # Dina  |   ",kontak['Dina'])
-
 print("="*30)
  
  # hasil output nya
