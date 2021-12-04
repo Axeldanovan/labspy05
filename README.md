@@ -10,9 +10,10 @@ Dengan penjelasan source code sebagai berikut:
 
 -Dibawah ini adalah untuk menampung data dari dictionary
 
+```python
 daftarkontak = {"Nama":"Nomor Telepon"}
 kontak = {'Ari':'081267888', 'Dina':'087677776'}
-
+```
 
 
 -Sedangkan code dibawah adalah untuk mengakses atau menampilkan kontak yang telah ditampung dalam data dictionary tersebut
