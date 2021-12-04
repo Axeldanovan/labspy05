@@ -42,12 +42,13 @@ print("="*30)
 ![Screenshot_1](https://user-images.githubusercontent.com/81457697/144693251-d1c7c196-2e4d-4332-8fff-47f10ae7e72e.png)
 
 -Code dibawah ini untuk menambahkan kontak dengan nama Riko dan nomor 087654544
-
+'''python
 print("Menambah kontak dengan dana Riko dan Nomor Telepon 087654544")
 kontak['Riko']='087654544'
 print("="*30)
 print("  Riko   |   ",kontak['Riko'])
 print("="*30)
+'''
 
 # hasil output nya
 ![Screenshot_2](https://user-images.githubusercontent.com/81457697/144693317-0d92ec1b-3a60-41c2-a0d9-a4682ea8d932.png)
