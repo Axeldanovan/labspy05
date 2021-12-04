@@ -54,12 +54,13 @@ print("="*30)
 ![Screenshot_2](https://user-images.githubusercontent.com/81457697/144693317-0d92ec1b-3a60-41c2-a0d9-a4682ea8d932.png)
 
 -Code dibawah untuk mengubah kontak Dina dengan nomor baru 0889999776
-
+'''python
 print("Mengubah kontak Dina dengan nomor baru 0889999776")
 kontak['Dina']='0889999776'
 print("="*30)
 print(" # Dina  |   ",kontak['Dina'])
 print("="*30)
+'''
 
 # hasil output nya
 ![kontak dina](https://user-images.githubusercontent.com/81457697/144693341-4da3fe97-0600-4173-b5f2-affa7695a8f2.png)
