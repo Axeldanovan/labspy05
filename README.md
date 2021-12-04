@@ -164,3 +164,76 @@ if x.lower() == 't':
         else:
             print("Nama{0} Tidak Ditemukan".format(nama))
 ```
+-Code dibawah adalah untuk syntax penghapusan data, dengan ketentuan jika kita mengetikkan 'h' pada keyboard, maka akan melakukan penghapusan data yang telah kita masukkan kedalam dictionary 'a' yang telah kita buat dengan statemen del a[nama]
+
+```python
+   elif x.lower() == 'h':
+        print("Hapus Data")
+        nama = input("Masukkan Nama  : ")
+        if nama in a.keys():
+            del a[nama]
+        else:
+            print("Nama {0} Tidak Ditemukan".format(nama))
+```
+-Code dibawah adalah untuk syntax pencarian data, dengan ketentuan jika kita mengetikkan 'c' pada keyboard, maka akan melakukan pencarian data dengan memasukkan keys dari data yang telah kita masukkan kedalam dictionary 'a' yang telah kita buat
+
+```python
+  elif x.lower() == 'c':
+        print("Cari Data")
+        nama = input("Masukkan Nama : ")
+        if nama in a.keys():
+            print("=" * 73)
+            print("|                             Daftar Mahasiswa                          |")
+            print("=" * 73)
+            print("| Nama            |       NIM       |  UTS  |  UAS  |  Tugas  |  Akhir  |")
+            print("=" * 73)
+            print("| {0:15s} | {1:15d} | {2:5d} | {3:5d} | {4:7d} | {5:7.2f} |"
+                  .format(nama, nim, uts, uas, tugas, n_akhir))
+            print("=" * 73)
+        else:
+            print("Nama {0} Tidak Ditemukan".format(nama))
+```
+
+-Code dibawah adalah untuk syntax melihat data, dengan ketentuan jika kita mengetikkan 'l' pada keyboard, maka akan menampilkan keseluruhan dari data yang telah kita masukkan dan ditampung ke dalam dictionary 'a' yang telah kita buat
+
+```python
+elif x.lower() == 'l':
+        if a.items():
+            print("=" * 78)
+            print("|                               Daftar Mahasiswa                             |")
+            print("=" * 78)
+            print("|No. | Nama            |       NIM       |  UTS  |  UAS  |  Tugas  |  Akhir  |")
+            print("=" * 78)
+            i = 0
+            for y in a.items():
+                i += 1
+                print("| {no:2d} | {0:15s} | {1:15d} | {2:5d} | {3:5d} | {4:7d} | {5:7.2f} |"
+                      .format(y[0][:13], y[1][0], y[1][1], y[1][2], y[1][3], y[1][4], no=i))
+                print("=" * 78)
+```
+
+-Code dibawah adalah untuk menampilkan 'TIDAK ADA DATA', jika kita belum pernah memasukkan data kedalam dictionary 'a'
+
+```python
+  else:
+            print("=" * 78)
+            print("|                               Daftar Mahasiswa                             |")
+            print("=" * 78)
+            print("|No. | Nama            |       NIM       |  UTS  |  UAS  |  Tugas  |  Akhir  |")
+            print("=" * 78)
+            print("|                                TIDAK ADA DATA                              |")
+            print("=" * 78)
+```
+
+-sedangkan code dibawah adalah untuk syntax keluar dari program, untuk menghentikan program, dengan ketentuan jika kita mengetikkan 'k' pada keyboard, maka akan keluar dari program tersebut
+
+ elif x.lower() == 'k':
+        break
+```
+
+-Dan code yang terakhir adalah untuk syntax jika kita mengetikkan pada keyboard selain dari huruf yang telah di definisikan di atas seperti 't', 'u', 'h', 'c', 'l', dan 'k', maka akan menampilkan Pilih Menu Yang Tersedia
+
+```python
+ else:
+        print("Pilih Menu Yang Tersedia"
+```
