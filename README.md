@@ -116,3 +116,12 @@ print("="*30)
 ![Screenshot_5](https://user-images.githubusercontent.com/81457697/144696950-06614b1d-9f0e-4552-bcfb-2bb31f363a85.png)
 ![Screenshot_6](https://user-images.githubusercontent.com/81457697/144696952-f6911d7d-9057-4e85-8398-29be9474d04b.png)
 ![Screenshot_7](https://user-images.githubusercontent.com/81457697/144696958-16a10d84-cfd7-4d8e-930f-1c6286f0d44f.png)
+
+-flowchart program nya
+![flowchart daftar nilai mahasiswa](https://user-images.githubusercontent.com/81457697/144697067-b94cc919-e674-43bb-add4-62e3e196a2a9.png)
+
+-Dengan penjelasan source code sebagai berikut:
+```python
+a = {}
+```
+
