@@ -76,3 +76,36 @@ print("="*30)
 # hasil output nya
 ![Screenshot_3](https://user-images.githubusercontent.com/81457697/144693368-c1d1d55a-46be-49d5-abb1-713a55d44b76.png)
 
+-Code berikut untuk menampilkan semua nomor yang ada dalam daftar kontak
+```python
+print("Menampilkan semua nomor")
+print("="*30)
+print(kontak.values())
+print("="*30)
+```
+#hasil output nya
+![menampilakan sebuah nomer](https://user-images.githubusercontent.com/81457697/144696692-04c0cb81-2248-4824-bbbe-9e34bbf551d9.png)
+
+-Code berikut untuk menampilkan semua daftar kontak beserta nama dan nomornya
+```python
+print("Menampilkan daftar nama dan nomor")
+print("="*30)
+print(kontak.items())
+print("="*30)
+```
+
+# hasil output nya
+![menampilkan daftar nama dan nomor](https://user-images.githubusercontent.com/81457697/144696753-62e7842c-0641-4186-8dbe-770b626d4f75.png)
+
+-Code dibawah untuk menghapus kontak Dina yang tersimpan dalam daftar kontak
+```python
+print("Hapus kontak Dina")
+kontak.pop('Dina')
+print("="*30)
+print(kontak.items())
+print("="*30)
+```
+# hasil output nya
+![Screenshot_4](https://user-images.githubusercontent.com/81457697/144696783-4ff704f0-ad3b-45b8-88af-2c4e11146413.png)
+
+
