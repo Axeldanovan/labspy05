@@ -133,3 +133,16 @@ a = {}
 while True:
     x = input("(T)ambah, (U)bah, (H)apus, (C)ari, (L)ihat, (K)eluar: ")
 ```
+-Code dibawah adalah untuk syntax penambahan data, dengan ketentuan jika kita mengetikkan 't' pada keyboard, maka akan melakukan penambahan data dan ditampung kedalam dictionary 'a' yang telah kita buat, dengan nama sebagai keys, dan yang lainnya sebagai values
+
+```python
+if x.lower() == 't':
+        print("Tambah Data")
+        nama = input("Nama           : ")
+        nim = int(input("NIM            : "))
+        uts = int(input("Nilai UTS      : "))
+        uas = int(input("Nilai UAS      : "))
+        tugas = int(input("Nilai Tugas    : "))
+        n_akhir = tugas * 0.30 + uts * 0.35 + uas * 0.35
+        a[nama] = nim, uts, uas, tugas, n_akhir
+```
